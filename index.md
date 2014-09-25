@@ -15,4 +15,4 @@ A lifelong technophile and a product of the generation that straddles Wikipedia 
 
 [My First Impressions](/2014/09/22/My-First-Impressions)
 
-[Frustration Builds](/_posts/2014-09-24-Frustration-Builds.md)
+[Frustration Builds](/2014/09/24/Frustration-Builds)
