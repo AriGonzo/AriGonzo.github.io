@@ -1,5 +1,8 @@
 ---
 ---
+#Decide What To Be...and Go Be It
+### a blog about surviving The Iron Yard
+
 
 ## Who Am I?
 
