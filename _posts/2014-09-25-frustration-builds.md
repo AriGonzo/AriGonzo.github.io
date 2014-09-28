@@ -8,7 +8,9 @@ I try to make a point to recognize my flaws and shortcomings. One of them that I
 
 As I went through the instructions, I began to get frustrated that I was not able to make the other one work. The plain black and white blog was just so lame compared to my last one, but there was nothing I could do about it. I attempted to finish the assignment and when I placed my links and built out the site and pushed it to git I felt the relief of being done. I checked out the blog live and clicked on the link…```404```. Wait, what? _Click_…```404```
 
-gif of RAGE
+<img src="http://cdn.gifbay.com/2012/10/nerd_rage-7546.gif"/>
+
+<img src="http://i1238.photobucket.com/albums/ff482/heathgk/LizLemonhighfive.gif" alt="Alt text">
 
 I asked my classmates on hipchat what was going on and if anyone could help me. Logan answered and said he was able to find my blog post on a link that wasn’t the one on my ```index.html``` page. I wasn’t exactly sure how that blog post was on that url because I didn’t have the folder in my github repo. It was very confusing and frustrating but it accomplished the assignment. I figured I would ask David the following day.
 

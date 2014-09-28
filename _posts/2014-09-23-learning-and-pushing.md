@@ -1,12 +1,12 @@
 ---
 layout: default
 ---
-######Learning to Commit…and Then Pushing It To Git
+######Status Add Commit Push Repeat
 
 
 I’ve done a lot of _project learning._ Basically I hacked away at different HTML or Javascript code to make it do something slightly different than what it did before. I really thought I was good. I now know I was not. But I’m excited to learn how to.
 
-Our focus has been an emphasis on source control using git and github. I’ve had bit of experience with git when I worked through some of the Ruby on Rails tutorials but I don’t think I fully understood what I was doing or why I was doing it. This week all that changed. We worked through the command line which has always made me feel like a hacker in a terrible 90s movie.(link hackers). After explaining the concepts of git and repositories, we began looking at github pages. This would be the home of our blogs and the source of much frustration to come. We learned about jekyll and I read through the documentation to the best of my ability. As David explained to us about how jekyll works and provided us with the tools we needed, he introduced us to Cloud 9. Cloud 9 is an Integrated Development Environment (IDE) and will be where we build our blogs.
+Our focus has been an emphasis on source control using git and github. I’ve had bit of experience with git when I worked through some of the Ruby on Rails tutorials but I don’t think I fully understood what I was doing or why I was doing it. This week all that changed. We worked through the command line which has always made me feel like a [hacker in a terrible 90s movie.](http://ia.media-imdb.com/images/M/MV5BODg0NjQ5ODQ3OF5BMl5BanBnXkFtZTcwNjU4MjkzNA@@._V1_SX640_SY720_.jpg) After explaining the concepts of git and repositories, we began looking at github pages. This would be the home of our blogs and the source of much frustration to come. We learned about jekyll and I read through the documentation to the best of my ability. As David explained to us about how jekyll works and provided us with the tools we needed, he introduced us to Cloud 9. Cloud 9 is an Integrated Development Environment (IDE) and will be where we build our blogs.
 
 Understanding how the jekyll theming works came easy to me as soon as I saw ```{ {content}}``` and thought of my days as a Project Manager that sent out form letters through Microsoft Office. It was the same concept behind a mail merge. You wrap your content (```thispost.md```) around the form, in our case ```default.html```, and deliver it via the ```jekyll build```. Once I understood that, I was able to conceptualize how the blog was put together. I think my only problem was the disconnect between jekyll build and pushing to github pages… but that’s another blog for another day.
 
