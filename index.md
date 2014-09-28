@@ -24,7 +24,5 @@ A lifelong technophile and a product of the generation that straddles Wikipedia 
 ### Repositories I Own:
 * [This Blog](https://github.com/AriGonzo/AriGonzo.github.io)
 * [FEE--2014--Fall](https://github.com/AriGonzo/FEE--2014--FALL)
-* [Chartist](https://github.com/AriGonzo/chartist-js)
 * [Overachiever](https://github.com/AriGonzo/Overachiever)
-* [Mediator](https://github.com/AriGonzo/mediator)
 * [TIY-Assignments](https://github.com/AriGonzo/TIY-Assignments)
