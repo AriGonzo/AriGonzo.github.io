@@ -1,7 +1,6 @@
 ---
 layout: default
 ---
-
 ###Learning to Commit…and then pushing it to git
 
 
