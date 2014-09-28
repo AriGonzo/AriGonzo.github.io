@@ -28,8 +28,8 @@ p {
 img {
   padding-top: 10px;
   margin-left: -50px;
-  max-height: 150px;
-  max-width: 150px;
+  height: 165px;
+  width: 165px;
   float: left;
 }
 
