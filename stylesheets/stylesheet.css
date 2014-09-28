@@ -193,7 +193,8 @@ ul li {
 
 ul li:before {
   content: ">>";
-  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  font-family: 'PT Sans', sans-serif;
+  padding-left: 1.5em;
   font-size: 13px;
   color: #DE1B1B;
   margin-left: -37px;
