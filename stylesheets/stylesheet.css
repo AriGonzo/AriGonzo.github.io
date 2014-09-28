@@ -1,4 +1,18 @@
-body, p {
+body {
+  margin: 1em;
+  padding-left: 60px;
+  padding-right: 60px;
+  background: #F6F6F6;
+  color: #2B2B2B;
+  text-align: justify;
+  font-size: 1.3em;
+  font: 16px;
+  line-height: 1.5;
+  font-family:  'PT Sans', sans-serif;
+  border: 5px groove #E9E581;
+}
+
+p {
   margin: 1em;
   padding-left: 60px;
   padding-right: 60px;
