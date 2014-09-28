@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 ---
 
 ###Starting off - Getting to know everyone 

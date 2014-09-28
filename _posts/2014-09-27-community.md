@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 ###Being a part of the community
 
 The remainder of my weekend project required more of a creative approach and on Friday I was not feeling particularly creative so I decided to help my fellow classmates who might be struggling to understand the concepts we’ve learned so far. I sat with a few classmates and walked them through the process of reseting their blog back to scratch and applying all of the changes. During this time, we had a guest lecturer come in to the class. It was [Olivier Lacan](http://olivierlacan.com/posts/the-little-things/) from Code School. As he began his lecture, he said to me “If I’m teaching them anything you don’t want me to, just shake your head no or something” I wasn’t sure what just happened and as I looked around and realized he was talking to me I just blurted “Oh…uh, I’m a student.” To be honest it did feel nice to have Olivier think that I was the instructor. It was a simple mistake but it feels good for a person who just started doing this a week ago.
