@@ -10,6 +10,7 @@ layout: default
 #### [My GitHub Profile](http://www.github.com/AriGonzo)
 
 
+
 ## Who Am I?
 
 A lifelong technophile and a product of the generation that straddles Wikipedia and Dewey Decimal. Netflix and Blockbuster Video. With a strong love and respect for technology and the internet, I'm taking the plunge and immersing myself in all things coding. Follow along as I chronicle my journey from coding novice to Jr Web Developer in Orlando's first Iron Yard Academy Front End Engineering cohort.  
