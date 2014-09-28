@@ -1,6 +1,6 @@
 body, p {
   margin: 0;
-  padding: 0;
+  padding: 10px;
   background: #F6F6F6;
   color: #2B2B2B;
   font: 16px;
@@ -119,6 +119,7 @@ h2 {
   font-weight: normal;
   font-family: helvetica, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
   color: #2B2B2B;
+  padding-left: 10px;
   letter-spacing: -0.03em;
   text-decoration: underline, bolder;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
