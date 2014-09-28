@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-###Frustration builds
+######Frustration builds
 
 
 I try to make a point to recognize my flaws and shortcomings. One of them that I am actively working on is dealing with the out of nowhere bump in the road that temporarily throws me off my game. I had a bout with this on Wednesday night. After working for hours on my blog the night before, we were given some new instructions. As last night wasn’t done as I, being a future developer, should have done it, David was now walking us through the proper way to theme the site and have it build out correctly. The problem was that my blog didn’t look like most everyone else’s because I had copy pasta’d the theme. We were given our assignment and I could not figure out how to follow the instruction without tearing apart the blog I had spent hours on the night before. I tried for hours to work around it and make it mirror what David was looking for but while keeping my own things. At a certain point I realized that resistance was futile and knew I had to destroy it all. Burn it all to the ground. Or stop being dramatic and just rename the repository and start over, which I did.
