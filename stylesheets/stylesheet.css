@@ -9,7 +9,7 @@ body {
   font: 16px;
   line-height: 1.5;
   font-family:  'PT Sans', sans-serif;
-  border: 3px ridge #DE1B1B;
+  border: 3px ridge #6D1E78;
 }
 
 p {
@@ -28,8 +28,8 @@ p {
 img {
   padding-top: 10px;
   margin-left: -50px;
-  height: 165px;
-  width: 165px;
+  height: 125px;
+  width: 125px;
   float: left;
 }
 
@@ -148,7 +148,7 @@ h2 {
 h3 {
   font-weight: normal;
   font-family: 'PT Sans', sans-serif;
-  color: #DE1B1B;
+  color: #6D1E78;
   text-align: center;
   font-size: 24px;
   letter-spacing: -0.03em;
