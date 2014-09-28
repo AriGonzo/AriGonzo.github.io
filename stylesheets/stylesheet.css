@@ -1,8 +1,8 @@
 body, p {
   margin: 0;
   padding: 0;
-  background: #88808A;
-  color: #1A0421;
+  background: #F6F6F6;
+  color: #2B2B2B;
   font: 16px;
   line-height: 1.5;
   font-family: Helvetica, "Bitstream Vera Sans Mono", "Lucida Console", Terminal;
@@ -54,12 +54,12 @@ header {
 }
 
 header h1 {
-  font-size: 30px;
+  font-size: 40px;
   line-height: 1.5;
   margin: 0 0 0 -40px;
   font-weight: bold;
   font-family: Helvetica, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
-  color: #2B0416;
+  color: #2B2B2B;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
                0 0 5px rgba(181, 232, 83, 0.1),
                0 0 10px rgba(181, 232, 83, 0.1);
@@ -95,10 +95,11 @@ section img {
   max-width: 100%
 }
 
-h1, h2 {
+h1 {
   font-weight: normal;
   font-family: helvetica, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
-  color: #2B0416;
+  color: #2B2B2B;
+  text-align: center;
   letter-spacing: -0.03em;
   text-decoration: underline, bolder;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
@@ -106,10 +107,32 @@ h1, h2 {
                0 0 10px rgba(181, 232, 83, 0.1);
 }
 
-h3, h4, h5, h6 {
+h2 {
   font-weight: normal;
   font-family: helvetica, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
-  color: #2B0416;
+  color: #2B2B2B;
+  letter-spacing: -0.03em;
+  text-decoration: underline, bolder;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
+               0 0 5px rgba(181, 232, 83, 0.1),
+               0 0 10px rgba(181, 232, 83, 0.1);
+}
+
+h3 {
+  font-weight: normal;
+  font-family: helvetica, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  color: #DE1B1B;
+  text-align: center;
+  letter-spacing: -0.03em;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
+               0 0 5px rgba(181, 232, 83, 0.1),
+               0 0 10px rgba(181, 232, 83, 0.1);
+}
+
+h4, h5, h6 {
+  font-weight: normal;
+  font-family: helvetica, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  color: #DE1B1B;
   letter-spacing: -0.03em;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
                0 0 5px rgba(181, 232, 83, 0.1),
@@ -118,7 +141,7 @@ h3, h4, h5, h6 {
 
 
 #main_content h1 {
-  font-size: 30px;
+  font-size: 40px;
 }
 
 #main_content h2 {
@@ -249,7 +272,7 @@ hr {
 */
 
 a {
-  color: #3C3658;
+  color: #4A96AD;
   text-shadow: 0 0 5px rgba(104, 182, 255, 0.5);
 }
 
