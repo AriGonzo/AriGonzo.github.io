@@ -5,6 +5,10 @@ layout: default
 
 ### a blog about surviving The Iron Yard
 
+#### from the brain and fingers of [Ari Gonzalez](http://www.twitter.com/arigonzoari)
+
+#### [My GitHub Profile](http://www.github.com/AriGonzo)
+
 
 ## Who Am I?
 
