@@ -1,6 +1,7 @@
 body, p {
   margin: 1em;
   padding: 10px;
+  padding-right: 50px;
   background: #F6F6F6;
   color: #2B2B2B;
   font-size: 1.3em;
@@ -66,7 +67,7 @@ header h1 {
   line-height: 1.5;
   margin: 0 0 0 -40px;
   font-weight: bold;
-  font-family: Helvetica, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  font-family: 'PT Sans', sans-serif;
   color: #2B2B2B;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
                0 0 5px rgba(181, 232, 83, 0.1),
@@ -107,7 +108,7 @@ h1 {
   font-weight: normal;
   font-family: 'PT Sans', sans-serif;
   color: #2B2B2B;
-  font-size: 50px;
+  font-size: 65px;
   text-align: center;
   letter-spacing: -0.03em;
   text-decoration: underline, bolder;
@@ -118,7 +119,7 @@ h1 {
 
 h2 {
   font-weight: normal;
-  font-family: helvetica, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  font-family: 'PT Sans', sans-serif;
   color: #2B2B2B;
   padding-left: 10px;
   letter-spacing: -0.03em;
@@ -130,7 +131,7 @@ h2 {
 
 h3 {
   font-weight: normal;
-  font-family: helvetica, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  font-family: 'PT Sans', sans-serif;
   color: #DE1B1B;
   text-align: center;
   font-size: 24px;
@@ -142,7 +143,7 @@ h3 {
 
 h4, h5, h6 {
   font-weight: normal;
-  font-family: helvetica, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  font-family: 'PT Sans', sans-serif;
   color: #DE1B1B;
   letter-spacing: -0.03em;
   text-align: center;
