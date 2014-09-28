@@ -31,6 +31,8 @@ img {
   height: 125px;
   width: 125px;
   float: left;
+  position: fixed;
+  
 }
 
 
