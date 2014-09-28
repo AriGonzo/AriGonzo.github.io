@@ -1,11 +1,12 @@
 body, p {
-  margin: 0;
+  margin: 1em;
   padding: 10px;
   background: #F6F6F6;
   color: #2B2B2B;
+  font-size: 1.3em;
   font: 16px;
   line-height: 1.5;
-  font-family: Helvetica, "Bitstream Vera Sans Mono", "Lucida Console", Terminal;
+  font-family:  'PT Sans', sans-serif;
 }
 
 img {
@@ -104,7 +105,7 @@ section img {
 
 h1 {
   font-weight: normal;
-  font-family: helvetica, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  font-family: 'PT Sans', sans-serif;
   color: #2B2B2B;
   font-size: 50px;
   text-align: center;
@@ -121,7 +122,7 @@ h2 {
   color: #2B2B2B;
   padding-left: 10px;
   letter-spacing: -0.03em;
-  text-decoration: underline, bolder;
+  text-decoration: underline;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
                0 0 5px rgba(181, 232, 83, 0.1),
                0 0 10px rgba(181, 232, 83, 0.1);
