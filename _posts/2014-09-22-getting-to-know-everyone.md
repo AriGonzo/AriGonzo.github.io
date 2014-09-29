@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-######Getting to know everyone 
+######Getting To Know Everyone 
 
 The first few days of any new adventure, whether it’s a new job, a new class, or a new meetup group, always has an initial settling period. A time where you get your bearings. Find out where the bathroom is. Swap out your chair with an extra one so the squeaky backing doesn’t cause your classmates to want to kill you. It’s an exciting and stressful time. Starting out at the Iron Yard I made it even harder on myself by biking in on the first day. I made great time, unfortunately I think I under-estimated how hot it would be at 8:00am and arrived to class with a red face and a wet brow. _“Oh great, smelly kid’s here,” they’d say._ Luckily I thought ahead and brought a change of clothes and freshened up a bit. _Probably more information than I aught to give on a blog but I don’t want anyone out there thinking I smell. Oh great, I made it a thing, didn’t I?_
 
