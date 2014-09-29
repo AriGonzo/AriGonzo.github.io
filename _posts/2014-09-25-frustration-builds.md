@@ -8,7 +8,7 @@ I try to make a point to recognize my flaws and shortcomings. One of them that I
 
 As I went through the instructions, I began to get frustrated that I was not able to make the other one work. The plain black and white blog was just so lame compared to my last one, but there was nothing I could do about it. I attempted to finish the assignment and when I placed my links and built out the site and pushed it to git I felt the relief of being done. I checked out the blog live and clicked on the link…```404```. Wait, what? _Click_…```404```
 
-![Alt text](http://cdn.gifbay.com/2012/10/nerd_rage-7546.gif)
+[RAGE!](http://cdn.gifbay.com/2012/10/nerd_rage-7546.gif)
 
 
 
