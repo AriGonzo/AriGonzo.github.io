@@ -16,3 +16,5 @@ I asked my classmates on hipchat what was going on and if anyone could help me. 
 
 
 I came into class feeling frustrated but decided to table that feeling for a while to focus on the new topic. During a break I asked David for clarification on the linking and it turns out how the link Logan gave me was correct. I was under the impression that *somehow* github would turn my link into another link. After finding that out, I felt great. We were given the new assignment and it was exactly what I had done the night before. Start over from scratch and rebuild your blog. I sat on the couch in the classroom and began to reset everything just as I had done the previous night. It felt like a good end assignment to a pretty great week.
+
+<a href="#top">Go to top</a>
