@@ -18,10 +18,11 @@ A lifelong technophile and a product of the generation that straddles Wikipedia 
 
 
 ## Blog Posts:
-* [Getting To Know Everyone](2014/09/22/getting-to-know-everyone.html)
-* [Status Add Commit Push Repeat](2014/09/23/learning-and-pushing.html)
-* [Frustration Builds](2014/09/25/frustration-builds.html)
-* [Being a Part of the Community](2014/09/27/community.html)
+* [10/05/2014 - Learn then Teach](2014/10/05/Learn-Then-Teach.html)
+* [09/27/2014 - Being a Part of the Community](2014/09/27/community.html)
+* [09/25/2014 - Frustration Builds](2014/09/25/frustration-builds.html)
+* [09/23/2014 - Status Add Commit Push Repeat](2014/09/23/learning-and-pushing.html)
+* [09/22/2014 - Getting To Know Everyone](2014/09/22/getting-to-know-everyone.html)
 
 ## Repositories I Own:
 * [This Blog](https://github.com/AriGonzo/AriGonzo.github.io)
