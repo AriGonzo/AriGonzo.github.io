@@ -39,3 +39,5 @@ to myself while teaching me about differing learning styles. If I am helping one
 vs. another, I may approach the problem from a different angle. It has reinforced
 several things for me and I have the intense nature of this course to thank for
 that. 
+
+<a href="#top">Go to top</a>
