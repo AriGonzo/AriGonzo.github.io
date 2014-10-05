@@ -27,10 +27,10 @@ can't spot until you do. If you learn something, teach someone else. Not only
 does this help spread knowledge, but it also helps you retain that information
 yourself.
 
-This is not a new concept by any means. (Learn by Teaching)[http://en.wikipedia.org/wiki/Learning_by_teaching]
+This is not a new concept by any means. [Learn by Teaching](http://en.wikipedia.org/wiki/Learning_by_teaching)
 has been around since Roman times. "Docendo discimus", or "by teaching, we learn"
 was a concept first written about by Seneca the Younger in his letters to Lucilius.
-The phrase is currently the motto of (many institutions)[http://en.wikipedia.org/wiki/Docendo_discimus].
+The phrase is currently the motto of [many institutions](http://en.wikipedia.org/wiki/Docendo_discimus).
 
 The Iron Yard has exposed me to working with various levels of experience and
 learning styles and while I work to help my fellow classmates understand the
