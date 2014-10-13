@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-#Decide What To Be...and Go Be It 
+#Decide What To Be...and Go Be It
 
 ###a blog about surviving The Iron Yard
 
@@ -18,6 +18,7 @@ A lifelong technophile and a product of the generation that straddles Wikipedia 
 
 
 ## Blog Posts:
+* [10/12/2014 - My Happy Place](2014/10/12/My-Happy-Place.html)
 * [10/05/2014 - Learn then Teach](2014/10/05/Learn-Then-Teach.html)
 * [09/27/2014 - Being a Part of the Community](2014/09/27/community.html)
 * [09/25/2014 - Frustration Builds](2014/09/25/frustration-builds.html)
