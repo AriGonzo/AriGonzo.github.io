@@ -14,3 +14,10 @@ a.fa fa-home:before {
   border-radius: 50%;
   opacity: 0.8
 }
+
+.fa-5x {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  font-size: 8em;
+}
