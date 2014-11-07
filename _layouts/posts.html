@@ -44,11 +44,6 @@ p {
           <div class="container">
              <a class="navbar-brand" href="//arigonzo.com">!bang</a>
              <a href="#" class="dropdown-menu navbar-right" role="menu">
-               <ul class="posts">
-                   {% for post in site.posts %}
-                     <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-                   {% endfor %}
-                 </ul>
              </a>
            </div>
          </nav>
