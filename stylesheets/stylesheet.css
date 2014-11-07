@@ -6,5 +6,11 @@
 
 p {
   font-size: 13pt;
+}
 
+i.fa fa-home:before {
+  border: 12px solid #DCDADA;
+  position: absolute;
+  border-radius: 50%;
+  opacity: 0.8
 }
