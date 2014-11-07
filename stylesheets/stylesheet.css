@@ -1,4 +1,4 @@
-a img {
+#back img, a img {
   max-width: 100%;
   position: fixed;
   opacity: 0.15;
