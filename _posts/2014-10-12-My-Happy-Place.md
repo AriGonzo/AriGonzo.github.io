@@ -1,8 +1,8 @@
 ---
-layout: default
+layout: posts
 ---
 
-###### My Happy Place
+### My Happy Place
 
 While sitting and discussing one of the many geeky topics that come up at The Iron
 Yard, a classmate and I talked our favorite board and card games. We were sparked
