@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-#Decide What To Be...and Go Be It
+#!bang
 
 ###a blog about surviving The Iron Yard
 
