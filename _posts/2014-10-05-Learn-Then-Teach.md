@@ -1,8 +1,9 @@
 ---
 layout: posts
+title: "Learn then Teach"
 ---
 
-### Learn then Teach
+### {{page.title}}
 
 It's now been 2 full weeks at The Iron Yard. It has been quite an intense two
 weeks to say the least. Lots of initial understanding of a new concept, followed by the slow

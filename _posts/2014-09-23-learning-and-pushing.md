@@ -1,7 +1,8 @@
 ---
 layout: posts
+title: "Status Add Commit Push Repeat"
 ---
-### Status Add Commit Push Repeat
+### {{page.title}}
 
 
 I’ve done a lot of _project learning._ Basically I hacked away at different HTML or Javascript code to make it do something slightly different than what it did before. I really thought I was good. I now know I was not. But I’m excited to learn how to.
