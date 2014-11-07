@@ -1,7 +1,7 @@
 ---
-layout: default
+layout: posts
 ---
-######Status Add Commit Push Repeat
+### Status Add Commit Push Repeat
 
 
 I’ve done a lot of _project learning._ Basically I hacked away at different HTML or Javascript code to make it do something slightly different than what it did before. I really thought I was good. I now know I was not. But I’m excited to learn how to.
@@ -11,5 +11,3 @@ Our focus has been an emphasis on source control using git and github. I’ve ha
 Understanding how the jekyll theming works came easy to me as soon as I saw ```{ {content}}``` and thought of my days as a Project Manager that sent out form letters through Microsoft Office. It was the same concept behind a mail merge. You wrap your content (```thispost.md```) around the form, in our case ```default.html```, and deliver it via the ```jekyll build```. Once I understood that, I was able to conceptualize how the blog was put together. I think my only problem was the disconnect between jekyll build and pushing to github pages… but that’s another blog for another day.
 
 As an “extra credit”, we were told to try to find and add a nice theme design to the blog. I found one but had not yet learned how to apply it easily via git command lines. So what did I do? The one thing we weren’t supposed to do (yet I got prior permission for this one instance) and I copy pasta’d. The entire theme file. It was quite a lot of work and took about an hour and a half to copy each file. When it came to editing the images, the theme would not be reflected via Cloud 9 so I had to commit and push each time I wanted to update a picture and check centering. Needless to say, the exercise of “getting used to committing” was accomplished with my 108 commits to that project. In the end I had a nice Calvin and Hobbes theme and all was right in the world… for now.
-
-<a href="#top">Go to top</a>

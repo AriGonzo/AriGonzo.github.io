@@ -1,8 +1,8 @@
 ---
-layout: default
+layout: posts
 ---
 
-###### Learn then Teach
+### Learn then Teach
 
 It's now been 2 full weeks at The Iron Yard. It has been quite an intense two
 weeks to say the least. Lots of initial understanding of a new concept, followed by the slow
@@ -38,6 +38,4 @@ concepts we are learning in class, it is also helping me reinforce the concepts
 to myself while teaching me about differing learning styles. If I am helping one classmate
 vs. another, I may approach the problem from a different angle. It has reinforced
 several things for me and I have the intense nature of this course to thank for
-that. 
-
-<a href="#top">Go to top</a>
+that.
