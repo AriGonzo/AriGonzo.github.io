@@ -1,5 +1,10 @@
-a img {
+#back img {
   max-width: 100%;
   position: fixed;
-  opacity: 0.2;
+  opacity: 0.15;
+}
+
+p {
+  font-size: 13pt;
+
 }
