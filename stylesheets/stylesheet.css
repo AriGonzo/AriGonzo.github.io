@@ -1,23 +1,23 @@
-#back img {
+a img {
   max-width: 100%;
   position: fixed;
   opacity: 0.15;
 }
-
-p {
-  font-size: 13pt;
-}
-
-a.fa fa-home:before {
+ i.fa-home::before {
   border: 12px solid #DCDADA;
   position: absolute;
   border-radius: 50%;
   opacity: 0.8
 }
-
 .fa-5x {
   width: 200px;
   height: 200px;
   position: absolute;
   font-size: 8em;
+}
+p {
+  font-size: 13pt;
+}
+.container {
+  width: 100%;
 }
