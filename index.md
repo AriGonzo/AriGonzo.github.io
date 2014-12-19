@@ -4,7 +4,7 @@ title: "!bang"
 ---
 #{{page.title}}
 
-###a blog about surviving The Iron Yard
+###a blog about surviving post Iron Yard
 
 ###from the brain and fingers of [Ari Gonzalez](http://www.twitter.com/arigonzoari)
 
