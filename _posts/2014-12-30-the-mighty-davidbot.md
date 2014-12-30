@@ -24,6 +24,7 @@ Excited with the new shift, I contacted Logan and got to work. I salvaged what I
 
 Turns out a chrome extension is just a tiny web app along with a manifest.json file. Here's ours:
 
+
 ```
 {
   "manifest_version": 2,
@@ -44,6 +45,7 @@ Turns out a chrome extension is just a tiny web app along with a manifest.json f
   }
 }
 ```
+
 With just that, we were able to load up the extension in developer mode in the chrome browser. 
 
 With one API down ([Chrome Extension API](https://developer.chrome.com/extensions/api_index)) and one more to go, I turned my focus to the hipchat API. This is where things get fun.
@@ -75,6 +77,7 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 });
 ```
+
 it was my experience working with jQuery in a chrome extension that it was not very fond of utilizing the library at times. I had to mix in some traditional dom-traversal calls with the jquery to get it to work.
 
 The hipchat API was not difficult to work with. Once I figured out how to post a message to a specific room, it was all about customizing the message. I decided on a canned "One of your classmates found this useful and wanted to share it with you" and added the link of the URL on the end.
