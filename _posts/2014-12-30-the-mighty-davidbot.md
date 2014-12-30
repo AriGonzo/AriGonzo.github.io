@@ -89,6 +89,7 @@ And THUSLY, DavidBot WAS ALIVE!!
 I was very proud of this project and I was especially proud that I was able to make it quite useful in the end by replacing some of the logic and Javascript. I replaced the LMGTFY functionality and instead plucked the input in the text field and concatenated it to the front of the URL for the hipchat functionality. Now, if a student was searching around and came across an article their classmates might find interesting, they could type a description into the field and press the chat bubble. This would then drop the link into hipchat sharing it with everyone while not breaking your workflow.
 
 <img src="/images/DBbrowser.png" />
+<hr />
 <img src="/images/DBchat.png" />
 
 Does it solve some big world problem? No. But it's mine. I built it and I love it.
