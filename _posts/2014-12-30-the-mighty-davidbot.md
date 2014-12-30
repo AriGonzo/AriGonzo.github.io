@@ -25,7 +25,7 @@ Excited with the new shift, I contacted Logan and got to work. I salvaged what I
 Turns out a chrome extension is just a tiny web app along with a manifest.json file. Here's ours:
 
 
-```
+
 		{
 		  "manifest_version": 2,
 
@@ -44,13 +44,13 @@ Turns out a chrome extension is just a tiny web app along with a manifest.json f
 		    "default_popup": "extension.html"
 		  }
 		}
-```
+
 
 With just that, we were able to load up the extension in developer mode in the chrome browser. 
 
 With one API down ([Chrome Extension API](https://developer.chrome.com/extensions/api_index)) and one more to go, I turned my focus to the hipchat API. This is where things get fun.
 
-```
+
 		document.addEventListener('DOMContentLoaded', function() {
 		  var linkToShare = '';
 		  var currentTab = document.getElementById('hipchat');
@@ -76,7 +76,7 @@ With one API down ([Chrome Extension API](https://developer.chrome.com/extension
 		    return false;
 		  });
 		});
-```
+
 
 it was my experience working with jQuery in a chrome extension that it was not very fond of utilizing the library at times. I had to mix in some traditional dom-traversal calls with the jquery to get it to work.
 
