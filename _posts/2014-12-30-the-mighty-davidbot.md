@@ -26,24 +26,24 @@ Turns out a chrome extension is just a tiny web app along with a manifest.json f
 
 
 ```
-{
-  "manifest_version": 2,
+		{
+		  "manifest_version": 2,
 
-  "name": "David Bot",
-  "description": "Everyone needs a little al-the-x to help them",
-  "version": "1.0",
+		  "name": "David Bot",
+		  "description": "Everyone needs a little al-the-x to help them",
+		  "version": "1.0",
 
-  "permissions": [
-    "tabs",
-    "alarms",
-    "notifications",
-    "activeTab"
-  ],
-  "browser_action": {
-    "default_icon": "icon.png",
-    "default_popup": "extension.html"
-  }
-}
+		  "permissions": [
+		    "tabs",
+		    "alarms",
+		    "notifications",
+		    "activeTab"
+		  ],
+		  "browser_action": {
+		    "default_icon": "icon.png",
+		    "default_popup": "extension.html"
+		  }
+		}
 ```
 
 With just that, we were able to load up the extension in developer mode in the chrome browser. 
@@ -51,31 +51,31 @@ With just that, we were able to load up the extension in developer mode in the c
 With one API down ([Chrome Extension API](https://developer.chrome.com/extensions/api_index)) and one more to go, I turned my focus to the hipchat API. This is where things get fun.
 
 ```
-document.addEventListener('DOMContentLoaded', function() {
-  var linkToShare = '';
-  var currentTab = document.getElementById('hipchat');
-  currentTab.addEventListener('click', function(){
-    event.preventDefault();
-      event.preventDefault();
-      chrome.tabs.query({currentWindow: true, active: true}, function(tabs){
-      $.ajax({
-        type: 'POST',
-        url: apiBase + auth_token,
-        data: JSON.stringify({
-          'message' : "'One of your classmates found this useful and wanted to share it with you' + " " + tabs[0].url",
-          'color'   : 'purple',
-          "message_format" : 'text'
-        }),
-        error: function(e){
-          console.log(e);
-        },
-        dataType: "json",
-        contentType: "application/json"
-        });
-      });
-    return false;
-  });
-});
+		document.addEventListener('DOMContentLoaded', function() {
+		  var linkToShare = '';
+		  var currentTab = document.getElementById('hipchat');
+		  currentTab.addEventListener('click', function(){
+		    event.preventDefault();
+		      event.preventDefault();
+		      chrome.tabs.query({currentWindow: true, active: true}, function(tabs){
+		      $.ajax({
+		        type: 'POST',
+		        url: apiBase + auth_token,
+		        data: JSON.stringify({
+		          'message' : "'One of your classmates found this useful and wanted to share it with you' + " " + tabs[0].url",
+		          'color'   : 'purple',
+		          "message_format" : 'text'
+		        }),
+		        error: function(e){
+		          console.log(e);
+		        },
+		        dataType: "json",
+		        contentType: "application/json"
+		        });
+		      });
+		    return false;
+		  });
+		});
 ```
 
 it was my experience working with jQuery in a chrome extension that it was not very fond of utilizing the library at times. I had to mix in some traditional dom-traversal calls with the jquery to get it to work.
