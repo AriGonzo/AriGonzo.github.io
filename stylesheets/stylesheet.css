@@ -1,7 +1,7 @@
 #back img, a img {
   max-width: 100%;
   position: fixed;
-  opacity: 0.15;
+  opacity: 0.05;
 }
  i.fa-home::before {
   border: 12px solid #DCDADA;
