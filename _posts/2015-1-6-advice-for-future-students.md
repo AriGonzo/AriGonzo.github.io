@@ -46,7 +46,7 @@ More than you thought you could learn in such a short amount of time. You'll hea
 
 <img class="gif" src="/images/pt6.gif" />
 
-### 7. ...but the Knowledge Seems to Disappear When You're Working on you Assignment at Home
+### 7. ...but the Knowledge Seems to Disappear When You're Working on your Assignment at Home
 
 <img class="gif" src="/images/pt7.gif" />
 
@@ -86,7 +86,7 @@ You'll be surrounded by like-minded people from different backgrounds. You all h
 
 Share your frustrations and roadblocks with your teammates. Talk during standup. You'll be surprised at how many people are exactly where you are, but didn't have the nerve to speak up. If you're all there, you can work together to get better.
 
-### 14. It's Important to Pull Your ~~Classmates~~ TEAMMATES Up When They Get Knocked Down
+### 14. It's Important to Pull Your <s>Classmates</s> TEAMMATES Up When They Get Knocked Down
 
 <img class="gif" src="/images/pt14.gif" />
 
