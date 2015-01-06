@@ -96,8 +96,7 @@ You'd want them to do the same for you! You're all in this together.
 
 <img class="gif" src="/images/pt15.gif" />
 
-[Shameless plug 1](http://arigonzo.com/post/2014/12/30/the-mighty-davidbot.html)
-[Shameless plug 2](http://cardistryapp.github.io)
+I built a [chrome extension to replace my instructor](http://arigonzo.com/post/2014/12/30/the-mighty-davidbot.html) and an [addictive and crass single player adaptation of Cards Against Humanity](http://cardistryapp.github.io). Your move, students.
 
 ### 16. In 12 Weeks You're Going to Show Off the Fruits of your Labor in Front of your Friends, Family, and Future Colleagues
 
