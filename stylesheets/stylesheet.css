@@ -24,3 +24,7 @@ p {
 .posts > li {
   font-size: 13pt;
 }
+
+.gif {
+  width: 100%;
+}
