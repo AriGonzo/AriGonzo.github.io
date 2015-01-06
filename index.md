@@ -13,7 +13,7 @@ title: "!bang"
 
 ## Who Am I?
 
-A lifelong technophile and a product of the generation that straddles Wikipedia and Dewey Decimal. Netflix and Blockbuster Video. With a strong love and respect for technology and the internet, I'm taking the plunge and immersing myself in all things coding. Follow along as I chronicle my journey from coding novice to Jr Web Developer in Orlando's first Iron Yard Academy Front End Engineering cohort.  
+A lifelong technophile and a product of the generation that straddles Wikipedia and Dewey Decimal. Netflix and Blockbuster Video. With a strong love and respect for technology and the internet, I took the plunge and immersed myself in all things coding. Follow along as I chronicle my journey from coding novice to Jr Web Developer after Orlando's first Iron Yard Academy Front End Engineering cohort.  
 
 ## Blog Posts:
 <ul class="posts">
@@ -22,8 +22,8 @@ A lifelong technophile and a product of the generation that straddles Wikipedia 
     {% endfor %}
   </ul>
 
-## Repositories I Own:
+## Repositories I Own/Claim:
 * [This Blog](https://github.com/AriGonzo/AriGonzo.github.io)
-* [FEE--2014--Fall](https://github.com/AriGonzo/FEE--2014--FALL)
-* [Overachiever](https://github.com/AriGonzo/Overachiever)
-* [TIY-Assignments](https://github.com/AriGonzo/TIY-Assignments)
+* [Cards Against Singularity](https://github.com/CardistryApp/CardsAgainstSingularity)
+* [DavidBot](https://github.com/LoganArnett/RESTfull-Weekend)
+* [Iron Yard Assignments Repo](https://github.com/AriGonzo/TIY-Assignments)
