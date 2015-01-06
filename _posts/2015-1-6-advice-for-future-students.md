@@ -38,7 +38,7 @@ There's a lot of commands and the command line can be really intimidating. The g
 
 ### 5. You're Going to Learn a LOT over the Next 12 Weeks
 
-<img class="gif" src="/images/pt5.gif" />
+<img class="gif" src="/images/pt5.jpg" />
 
 More than you thought you could learn in such a short amount of time. You'll hear this a lot but its like trying to take a sip from a fire hydrant.
 
