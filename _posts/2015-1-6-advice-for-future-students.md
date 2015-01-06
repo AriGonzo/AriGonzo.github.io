@@ -6,7 +6,7 @@ title: "Advice for Current and Future Iron Yard Students"
 
 ### {{page.title}}
 
-#### as if written for Buzzfeed
+##### as if written for Buzzfeed
 
 Changing your life is not easy. No one ever said it was going to be easy and often times people don't realize that programming is a craft. As with any craft it takes time to hone you skills... but time is not a luxury that Iron Yard students have. 
 
