@@ -872,4 +872,8 @@
 	.modal-inner > img {
 		display: none;
 	}
+	.modal-close:before {
+		position: absolute;
+	}
+
 }
