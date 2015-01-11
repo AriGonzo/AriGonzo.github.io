@@ -874,6 +874,10 @@
 		overflow: scroll !important;
 	}
 
+	.modal-content {
+		overflow: scroll !important;
+	}
+
 	.modal-inner > img {
 		display: none;
 	}
