@@ -874,6 +874,7 @@
 	}
 	.modal-close:before {
 		position: absolute;
+		overflow: scroll;
 	}
 
 }
