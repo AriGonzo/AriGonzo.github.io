@@ -875,6 +875,7 @@
 	.modal-close:before {
 		position: absolute;
 		overflow: scroll;
+		height: 100vh;
 	}
 
 }
