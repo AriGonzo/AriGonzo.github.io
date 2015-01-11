@@ -1,62 +1,339 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
+<!--
+	Prologue by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 <html>
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<head>
+		<title>!bang: AriGonzo</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<link rel="stylesheet" href="bower_components/css-modal/build/modal.css" />
+		<link rel="stylesheet" href="bower_components/css-modal/build/modal-gallery.css" />
+		<link rel="stylesheet" href="bower_components/css-modal/build/modal-maxwidth.css" />
+		<link rel="stylesheet" href="bower_components/css-modal/build/modal-resize.css" />
+		<link rel="stylesheet" href="bower_components/css-modal/build/modal-spinner.css" />
+		<link rel="stylesheet" href="bower_components/css-modal/build/modal-stretch.css" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+		<script src="bower_components/css-modal/modal.js"></script>
+		<script src="javascripts/jquery.min.js"></script>
+		<script src="javascripts/jquery.scrolly.min.js"></script>
+		<script src="javascripts/jquery.scrollzer.min.js"></script>
+		<script src="javascripts/skel.min.js"></script>
+		<script src="javascripts/skel-layers.min.js"></script>
+		<script src="javascripts/init.js"></script>
+		<noscript>
+			<link rel="stylesheet" href="css/skel.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style-wide.css" />
+		</noscript>
+		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+	</head>
+	<body>
 
-    <link rel="stylesheet" type="text/css" href="/stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+		<!-- Header -->
+			<div id="header" class="skel-layers-fixed">
 
-    <title>!bang</title>
+				<div class="top">
 
-    <style>
-a img {
-  max-width: 100%;
-  position: fixed;
-  opacity: 0.15;
-}
- i.fa-home::before {
-  border: 12px solid #DCDADA;
-  position: absolute;
-  border-radius: 50%;
-  opacity: 0.8
-}
-.fa-5x {
-  width: 200px;
-  height: 200px;
-  position: absolute;
-  font-size: 8em;
-}
-p {
-  font-size: 13pt;
-}
-.container {
-  width: 100%;
-}
-.posts > li {
-  font-size: 13pt;
-}
-    </style>
-  </head>
-  <body>
-      <div class="container">
+					<!-- Logo -->
+						<div id="logo">
+							<span class="image avatar48"><img src="images/avatar.png" alt="" /></span>
+							<h1 id="title">Ari Gonzalez</h1>
+							<p>Web Developer</p>
+						</div>
 
-        <nav class="navbar navbar-inverse" role="navigation">
-          <div class="container">
-             <a class="navbar-brand" href="#">!bang</a>
-           </div>
-         </nav>
+					<!-- Nav -->
+						<nav id="nav">
+							<!--
+							
+								Prologue's nav expects links in one of two formats:
+								
+								1. Hash link (scrolls to a different section within the page)
+								
+								   <li><a href="#foobar" id="foobar-link" class="icon fa-whatever-icon-you-want skel-layers-ignoreHref"><span class="label">Foobar</span></a></li>
 
-        <div class="row">
-          <aside class="col-md-4">
-            <a id="back"><img src="./images/df_logo.png"></a>
-          </aside>
-          <article class="col-md-8">
-          {{content}}
-          </article>
-        </div>
-      </div>
-  </body>
+								2. Standard link (sends the user to another page/site)
+
+								   <li><a href="http://foobar.tld" id="foobar-link" class="icon fa-whatever-icon-you-want"><span class="label">Foobar</span></a></li>
+							
+							-->
+							<ul>
+								<li><a href="#top" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Intro</span></a></li>
+								<li><a href="#about" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-user">About Me</span></a></li>
+								<li><a href="#blog" id="blog-link" class="skel-layers-ignoreHref"><span class="icon fa-comment">Blog</span></a></li>
+								<li><a href="#portfolio" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Portfolio</span></a></li>
+								<li><a href="#contact" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-envelope">Contact</span></a></li>
+							</ul>
+						</nav>
+						
+				</div>
+				
+				<div class="bottom">
+
+					<!-- Social Icons -->
+						<ul class="icons">
+							<li><a href="http://www.twitter.com/AriGonzoAri" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="http://www.github.com/AriGonzo" class="icon fa-github"><span class="label">Github</span></a></li>
+							<li><a href="http://www.linkedin.com/in/AriGonzoAri" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+							<li><a href="mailto:arigonzalez515@gmail.com?Subject=Let's%20talk" class="icon fa-envelope"><span class="label">Email</span></a></li>
+						</ul>
+				
+				</div>
+			
+			</div>
+
+		<!-- Main -->
+			<div id="main">
+
+				<!-- Intro -->
+					<section id="top" class="one dark cover">
+						<div class="container">
+
+							<header id="introText">
+								<h2 class="alt">Hi! I'm <strong>Ari Gonzalez</strong>,<br> I like building the internet.</h2>
+								<p>Welcome to my site! Read more about me below, <br> 
+								check out my blog, take a look through some of my work, or give me a job.</p>
+							</header>
+							
+							<footer>
+								<a href="#portfolio" class="button scrolly">Jump To My Work</a>
+							</footer>
+
+						</div>
+					</section>
+
+				<!-- About Me -->
+					<section id="about" class="three">
+						<div class="container">
+
+							<header>
+								<h2>About Me</h2>
+							</header>
+
+							<a href="#" class="image featured"><img src="images/pic08.jpg" alt="" /></a>
+							
+							<p>A lifelong technophile and a product of the generation that straddles Wikipedia and Dewey Decimal. Netflix and Blockbuster Video. With a strong love and respect for technology and the internet, I took the plunge and immersed myself in all things coding by attending The Iron Yard Academy's Orlando Front-End Engineering cohort. Now that I have completed that course, I'm ready to begin my career in development. <br><br>
+								In a former life, I was a Project Manager in the field of Event Management. Traveling the US putting on events in different cities for companies of all sizes. I've been fortunate enough to have seen many amazing places and had a ton of experiences that have made me who I am today. I like to put the spin of my life experiences into anything I work on so that my work is always uniquely me.</p>
+						</div>
+					</section>
+
+					<!-- Blog -->
+					<section id="blog" class="three">
+						<div class="container">
+
+							<header>
+								<h2>Blog</h2>
+							</header>
+
+							<a href="#" class="image featured"><img src="images/pic99.jpg" alt="" /></a>
+							<p>From time to time I am hit with inspiration and the desire to share some thoughts. Scroll through and take a look:</p>
+							{{content}}
+
+						</div>
+					</section>
+
+					<!-- Portfolio -->
+					<section id="portfolio" class="two">
+						<div class="container">
+					
+							<header>
+								<h2>Portfolio</h2>
+							</header>
+							
+							<p>A few selections of the work done during and after my time at The Iron Yard</p>
+						
+							<div class="row">
+								<div class="4u">
+									
+							<article class="item">
+										<a href="#cardsAgainst" class="image fit"><img id="cardsIcon" src="http://cardistryapp.github.io/images/gamePage.png" alt="" /></a>
+										<header>
+											<a href="#cardsAgainst"><h3>Cards Against Singularity</h3></a>
+										</header>
+									</article>
+
+									<section class="modal--show" id="cardsAgainst" tabindex="-1" role="dialog" aria-labelledby="modal-label" aria-hidden="true">
+								<div class="modal-inner">
+        					<header id="modal-label"><h3>Cards Against Singularity</h3></header><img id="cardsModal" src="http://cardistryapp.github.io/images/gamePage.png">
+        						<div class="modal-content"><p class="portFont">My final project at The Iron Yard.<br>Cards Against Singularity is a single player adaptation of everyone's favorite raunchy card game. By breaking the game out into two modes, you are able to play rapid fire Cards Against Humanity anywhere you are! Who needs friends, anyway?<br><br>
+											<ul>Technology Used:
+												<li>HTML5/CSS3</li>
+												<li>AngularJS with UI-Router</li>
+												<li>AngularFire</li>
+												<li>Yeoman</li>
+												<li>Gulp</li>
+											</ul>
+        						</div>
+        						<footer class="footerText">
+        							<a href="http://www.github.com/CardistryApp/CardsAgainstSingularity" class="fa fa-github fa-2x"><span class="label"> Source</span></a><br>
+        							<a href="http://cardistryapp.github.io/">Product Page</a>
+        						</footer>
+    						</div>
+
+    						<a href="#!" class="modal-close" title="Close this modal" data-close="Close" data-dismiss="modal">?</a> 
+    					</section>		
+							
+							<article class="item">
+										<a href="#cageSlider" class="image fit"><img src="images/pic05.png" alt="" /></a>
+										<header>
+											<a href="#cageSlider"><h3>Cage Slider</h3></a>
+										</header>
+									</article>
+
+									<section class="modal--show" id="cageSlider" tabindex="-1" role="dialog" aria-labelledby="modal-label" aria-hidden="true">
+								<div class="modal-inner">
+        					<header id="modal-label"><h3>Cage Slider</h3></header><img id="cageIcon" src="images/pic05.png">
+        						<div class="modal-content"><p class="portFont">An early project and my first time using jQuery. Created an image 'slider' full of the best Nicolas Cage pictures I could find online. This was also when I fell in love with jQuery<br><br>
+											<ul>Technology Used:
+												<li>HTML5/CSS3</li>
+												<li>jQuery</li>
+											</ul>
+        						</div>
+        						<footer class="footerText">
+        							<a href="http://www.github.com/CardistryApp/CardsAgainstSingularity" class="fa fa-github fa-2x"><span class="label"> Source</span></a><br>
+        							<a href="http://arigonzo.com/TIY-Assignments/JQuery/Slider.html">Check it Out</a>
+        						</footer>
+    						</div>
+
+    						<a href="#!" class="modal-close" title="Close this modal" data-close="Close" data-dismiss="modal">?</a> 
+    					</section>
+
+
+								</div>
+								<div class="4u">
+
+									<article class="item">
+										<a href="#davidbot" class="image fit"><img id="davidbotIcon" src="http://arigonzo.com/images/DavidBot.png" alt="" /></a>
+										<header>
+											<a href="#davidbot"><h3>The Mighty DavidBot!</h3></a>
+										</header>
+									</article>
+									
+							<section class="modal--show" id="davidbot" tabindex="-1" role="dialog" aria-labelledby="modal-label" aria-hidden="true">
+								<div class="modal-inner">
+        					<header id="modal-label"><h3>The Mighty DavidBot</h3></header><img src="http://arigonzo.com/images/DavidBot.png">
+        						<div class="modal-content"><p class="portFont">The result of The Iron Yard instructor David Rogers' assignment of 'Make something interesting using at least 2 public APIs.' This chrome extension will answer any question you ask it similar to David's method: it will take your question and send you to 'LetMeGoogleThatForYou.com.' Find something interesting? Click on the chat icon and your current open tab URL will be dropped into the class Hipchat room to share the knowledge <br><br>
+        							<ul>Technology Used:
+												<li>HTML5/CSS3</li>
+												<li>jQuery</li>
+												<li>Google Chrome API</li>
+												<li>Hipchat API</li>
+											</ul>
+										</div>
+        						<footer class="footerText">
+        							<a href="https://github.com/LoganArnett/RESTfull-Weekend/tree/master/extension" class="fa fa-github fa-2x"><span class="label"> Source</span></a><br>
+        							<a href="http://arigonzo.com/post/2014/12/30/the-mighty-davidbot.html">Blog Post About the Birth of DavidBot</a>
+        						</footer>
+    						</div>
+
+    						<a href="#!" class="modal-close" title="Close this modal" data-close="Close" data-dismiss="modal">?</a> 
+    					</section>
+
+								</div>
+								<div class="4u">
+									<article class="item">
+										<a href="#angularFireModal" class="image fit"><img src="images/pic06.png" alt="" /></a>
+										<header>
+											<h3>AngularFire Realtime Message Board</h3>
+										</header>
+									</article>
+								
+								<section class="modal--show" id="angularFireModal" tabindex="-1" role="dialog" aria-labelledby="modal-label" aria-hidden="true">
+								<div class="modal-inner">
+        					<header id="modal-label"><h3>AngularFire Message Board</h3></header><img id="afModal" src="images/pic06.png">
+        						<div class="modal-content"><p id="afFont" class="portFont">An early AngularJS project that used AngularFire as a backend. This was a real-time chat/message board with Facebook Authentication<br><br>
+        							<ul id="afList">Technology Used:
+												<li>HTML5/CSS3</li>
+												<li>AngularJS</li>
+												<li>AngularFire</li>
+												<li>Yeoman</li>
+											</ul>
+										</div>
+        						<footer class="footerText">
+        							<a href="https://github.com/AriGonzo/TIY-Assignments/tree/master/YeomanProject" class="fa fa-github fa-2x"><span class="label"> Source</span></a><br>
+        							<a href="http://arigonzo.com/TIY-Assignments/YeomanProject/dist/">Check it Out!</a>
+        						</footer>
+    						</div>
+
+    						<a href="#!" class="modal-close" title="Close this modal" data-close="Close" data-dismiss="modal">?</a> 
+    					</section>
+
+									<article class="item">
+										<a href="#batmanForm" class="image fit"><img src="images/pic07.png" alt="" /></a>
+										<header>
+											<h3>Responsive Multi-Column-Form</h3>
+										</header>
+									</article>
+									
+									<section class="modal--show" id="batmanForm" tabindex="-1" role="dialog" aria-labelledby="modal-label" aria-hidden="true">
+								<div class="modal-inner">
+        					<header id="modal-label"><h3>Responsive Multi-Column Form</h3></header><img id="cageIcon" src="images/pic07.png">
+        						<div class="modal-content"><p class="portFont">A responsive multi-column form that uses @media queries and html5 form validation as well as using jQuery to log the results of the form<br><br>
+											<ul>Technology Used:
+												<li>HTML5/CSS3</li>
+												<li>jQuery</li>
+											</ul>
+        						</div>
+        						<footer class="footerText" id="batmanFooter">
+        							<a href="https://github.com/AriGonzo/TIY-Assignments/blob/master/JQuery/Multi-Colum-Form.html" class="fa fa-github fa-2x"><span class="label"> Source</span></a><br>
+        							<a href="http://arigonzo.com/TIY-Assignments/JQuery/Multi-Colum-Form.html">Check it Out</a>
+        						</footer>
+    						</div>
+
+    						<a href="#!" class="modal-close" title="Close this modal" data-close="Close" data-dismiss="modal">?</a> 
+    					</section>
+
+								</div>
+							</div>
+
+						</div>
+					</section>
+
+
+				<!-- Contact -->
+					<section id="contact" class="four">
+						<div class="container">
+
+							<header>
+								<h2>Contact</h2>
+							</header>
+
+							<h3>If you would like to discuss:</h3>
+							<ul id="contact">
+								<li>Working Together;</li>
+								<li>Comic Books;</li>
+								<li>Video Games;</li>
+								<li>Professional Wrestling;</li>
+								<li>One of the Projects Listed Above;</li>
+							</ul>
+							
+							<h3>or you just want to say 'Hey', Reach out to me on one of the following:</h3>
+
+							<ul id="contactList">
+								<li><a href="http://www.twitter.com/AriGonzoAri" class="fa fa-twitter fa-2x"><span class="label"></span></a></li>
+								<li><a href="http://www.github.com/AriGonzo" class="fa fa-github fa-2x"><span class="label"></span></a></li>
+								<li><a href="http://www.linkedin.com/in/AriGonzoAri" class="fa fa-linkedin fa-2x"><span class="label"></span></a></li>
+								<li><a href="mailto:arigonzalez515@gmail.com?Subject=Let's%20talk" class="fa fa-envelope fa-2x"><span class="label"></span></a></li>
+							</ul>
+
+						</div>
+					</section>
+			
+			</div>
+
+		<!-- Footer -->
+			<div id="footer">
+				
+				<!-- Copyright -->
+					<ul class="copyright">
+						<li>&copy; !bang. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				
+			</div>
+
+	</body>
 </html>
