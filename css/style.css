@@ -869,6 +869,11 @@
 }
 
 @media screen and (max-width: 30em) {
+	.modal-inner {
+		box-sizing: inherit;
+		overflow: scroll;
+	}
+
 	.modal-inner > img {
 		display: none;
 	}
