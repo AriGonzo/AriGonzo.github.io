@@ -867,3 +867,9 @@
 #contactList li a {
 	margin: 2ex 2em;
 }
+
+@media screen and (max-width: 30em) {
+	.modal-inner {
+		overflow: scroll;
+	}
+}
