@@ -349,78 +349,78 @@
 		 * @param  {Object} event The incoming hashChange event
 		 * @return {void}
 		 */
-		mainHandler: function (event, noHash) {
-			var hash = global.location.hash.replace('#', '');
-			var index = 0;
-			var tmp = [];
-			var modalElement;
-			var modalChild;
+		// mainHandler: function (event, noHash) {
+		// 	var hash = global.location.hash.replace('#', '');
+		// 	var index = 0;
+		// 	var tmp = [];
+		// 	var modalElement;
+		// 	var modalChild;
 
-			// JS-only: no hash present
-			if (noHash) {
-				hash = event.target.getAttribute('href').replace('#', '');
-			}
+		// 	// JS-only: no hash present
+		// 	if (noHash) {
+		// 		hash = event.target.getAttribute('href').replace('#', '');
+		// 	}
 
-			modalElement = document.getElementById(hash);
+		// 	modalElement = document.getElementById(hash);
 
-			// Check if the hash contains an index
-			if (hash.indexOf('/') !== -1) {
-				tmp = hash.split('/');
-				index = tmp.pop();
-				hash = tmp.join('/');
+		// 	// Check if the hash contains an index
+		// 	if (hash.indexOf('/') !== -1) {
+		// 		tmp = hash.split('/');
+		// 		index = tmp.pop();
+		// 		hash = tmp.join('/');
 
-				// Remove the index from the hash...
-				modalElement = document.getElementById(hash);
+		// 		// Remove the index from the hash...
+		// 		modalElement = document.getElementById(hash);
 
-				// ... and store the index as a number on the element to
-				// make it accessible for plugins
-				if (!modalElement) {
-					throw new Error('ReferenceError: element "' + hash + '" does not exist!');
-				}
+		// 		// ... and store the index as a number on the element to
+		// 		// make it accessible for plugins
+		// 		if (!modalElement) {
+		// 			throw new Error('ReferenceError: element "' + hash + '" does not exist!');
+		// 		}
 
-				modalElement.index = (1 * index);
-			}
+		// 		modalElement.index = (1 * index);
+		// 	}
 
-			// If the hash element exists
-			if (modalElement) {
+		// 	// If the hash element exists
+		// 	if (modalElement) {
 
-				// Polyfill to prevent the default behavior of events
-				try {
-					event.preventDefault();
-				} catch (ex) {
-					event.returnValue = false;
-				}
+		// 		// Polyfill to prevent the default behavior of events
+		// 		try {
+		// 			event.preventDefault();
+		// 		} catch (ex) {
+		// 			event.returnValue = false;
+		// 		}
 
-				// Get first element in selected element
-				modalChild = modalElement.children[0];
+		// 		// Get first element in selected element
+		// 		modalChild = modalElement.children[0];
 
-				// When we deal with a modal and body-class `has-overlay` is not set
-				if (modalChild && modalChild.className.match(/modal-inner/)) {
+		// 		// When we deal with a modal and body-class `has-overlay` is not set
+		// 		if (modalChild && modalChild.className.match(/modal-inner/)) {
 
-					// Make previous element stackable if it is not the same modal
-					modal.unsetActive(
-						!modal.hasClass(modalElement, 'is-active'),
-						(modalElement.getAttribute('data-stackable') === 'false')
-					);
+		// 			// Make previous element stackable if it is not the same modal
+		// 			modal.unsetActive(
+		// 				!modal.hasClass(modalElement, 'is-active'),
+		// 				(modalElement.getAttribute('data-stackable') === 'false')
+		// 			);
 
-					// Set an html class to prevent scrolling
-					modal.addClass(document.documentElement, 'has-overlay');
+		// 			// Set an html class to prevent scrolling
+		// 			modal.addClass(document.documentElement, 'has-overlay');
 
-					// Set scroll position for modal
-					modal._currentScrollPositionY = global.scrollY;
-					modal._currentScrollPositionX = global.scrollX;
+		// 			// Set scroll position for modal
+		// 			modal._currentScrollPositionY = global.scrollY;
+		// 			modal._currentScrollPositionX = global.scrollX;
 
-					// Mark the active element
-					modal.setActive(modalElement);
-				}
-			} else {
+		// 			// Mark the active element
+		// 			modal.setActive(modalElement);
+		// 		}
+		// 	} else {
 
-				// If activeElement is already defined, delete it
-				modal.unsetActive();
-			}
+		// 		// If activeElement is already defined, delete it
+		// 		modal.unsetActive();
+		// 	}
 
-			return true;
-		},
+		// 	return true;
+		// },
 
 		/**
 		 * Inject iframes
