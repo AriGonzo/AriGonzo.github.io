@@ -868,7 +868,23 @@
 	margin: 2ex 2em;
 }
 
+.mobileInfo {
+	display: none;
+}
+
 @media screen and (max-width: 30em) {
+	.mobileInfo {
+		display: block;
+	}
+	.item a {
+		pointer-events: none;
+	}
+	.item {
+		pointer-events: none;
+	}
+	.modal-inner {
+		display: none;
+	}
 	.modal-inner {
 		box-sizing: inherit !important;
 		overflow: scroll !important;
@@ -886,5 +902,7 @@
 		overflow: scroll;
 		height: 100vh;
 	}
-
+	#afList {
+		float: none;
+	}
 }

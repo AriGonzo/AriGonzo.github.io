@@ -140,10 +140,18 @@ html {
       bottom: auto; }
       .modal--fade:target, .modal--show:target, .is-active.modal--fade, .is-active.modal--show {
         width: 100%;
-        height: 100%;
-        position: fixed; }
+        height: 100%; }
         .modal--fade:target .modal-close, .modal--show:target .modal-close, .is-active.modal--fade .modal-close, .is-active.modal--show .modal-close {
           display: block; }
+      .modal--fade .modal-inner, .modal--show .modal-inner {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        overflow: auto; }
       .modal--fade .modal-content, .modal--show .modal-content {
         max-height: none;
         -ms-word-break: break-all;
@@ -153,7 +161,7 @@ html {
         -moz-hyphens: auto;
         hyphens: auto; }
       .modal--fade .modal-close, .modal--show .modal-close {
-        
+        display: none;
         right: auto; }
         .modal--fade .modal-close:before, .modal--show .modal-close:before {
           content: '';
