@@ -125,7 +125,55 @@ html {
     .modal--fade .modal-close:after, .modal--show .modal-close:after {
       margin-right: 0 !important;
       right: 20px; } }
-  
+  @media screen and (max-width: 30em) {
+    .modal--fade, .modal--show {
+      -webkit-transform: translate(0, 400px);
+      -webkit-transform: translate3d(0, 100%, 0);
+      transform: translate3d(0, 100%, 0);
+      -webkit-transition: opacity 1ms .25s;
+      -moz-transition: opacity 1ms .25s;
+      -o-transition: opacity 1ms .25s;
+      -ms-transition: opacity 1ms .25s;
+      transition: opacity 1ms .25s;
+      display: block;
+      right: auto;
+      bottom: auto; }
+      .modal--fade:target, .modal--show:target, .is-active.modal--fade, .is-active.modal--show {
+        width: 100%;
+        height: 100%; }
+        .modal--fade:target .modal-close, .modal--show:target .modal-close, .is-active.modal--fade .modal-close, .is-active.modal--show .modal-close {
+          display: block; }
+      .modal--fade .modal-inner, .modal--show .modal-inner {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        overflow: scroll; }
+      .modal--fade .modal-content, .modal--show .modal-content {
+        max-height: none;
+        -ms-word-break: break-all;
+        word-break: break-all;
+        word-break: break-word;
+        -webkit-hyphens: auto;
+        -moz-hyphens: auto;
+        hyphens: auto; }
+      .modal--fade .modal-close, .modal--show .modal-close {
+        display: none;
+        right: auto; }
+        .modal--fade .modal-close:before, .modal--show .modal-close:before {
+          content: '';
+          top: 0;
+          left: 0;
+          right: 0;
+          z-index: 20; }
+        .modal--fade .modal-close:after, .modal--show .modal-close:after {
+          top: 5px !important;
+          right: 5px;
+          left: auto;
+          margin-left: 0; } }
   @media screen and (max-height: 46em) and (min-width: 30em) {
     .modal--fade .modal-content, .modal--show .modal-content {
       max-height: 340px;
