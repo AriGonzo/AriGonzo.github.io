@@ -151,7 +151,7 @@ html {
         left: 0;
         right: 0;
         height: 100%;
-        overflow: auto; }
+        overflow: scroll; }
       .modal--fade .modal-content, .modal--show .modal-content {
         max-height: none;
         -ms-word-break: break-all;
@@ -161,7 +161,7 @@ html {
         -moz-hyphens: auto;
         hyphens: auto; }
       .modal--fade .modal-close, .modal--show .modal-close {
-        display: none;
+        
         right: auto; }
         .modal--fade .modal-close:before, .modal--show .modal-close:before {
           content: '';
