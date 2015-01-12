@@ -147,11 +147,10 @@ html {
         -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
         box-sizing: border-box;
-        top: 0;
         left: 0;
         right: 0;
         height: 100%;
-        overflow: scroll; }
+        overflow: auto; }
       .modal--fade .modal-content, .modal--show .modal-content {
         max-height: none;
         -ms-word-break: break-all;
@@ -165,7 +164,7 @@ html {
         right: auto; }
         .modal--fade .modal-close:before, .modal--show .modal-close:before {
           content: '';
-          top: 0;
+          position: fixed;
           left: 0;
           right: 0;
           z-index: 20; }
