@@ -857,7 +857,9 @@
 }
 
 #contact {
-	margin-bottom: 1ex
+	margin-bottom: 1ex;
+	margin-left: 20%;
+	text-align: center;
 }
 
 #contactList li {
