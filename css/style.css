@@ -874,6 +874,10 @@
 	display: none;
 }
 
+#angularFireModal div footer {
+	margin: 0;
+}
+
 @media screen and (max-width: 30em) {
 	.mobileInfo {
 		display: block;
