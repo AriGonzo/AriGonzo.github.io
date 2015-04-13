@@ -1,0 +1,331 @@
+body {
+	background-color: #5F4E7B;
+}
+.section {
+	background-color: #FFFEFE;
+	padding: 1px;
+}
+.menu a, .projectContain p {
+	cursor: pointer;
+}
+video#bgvid {
+	position: absolute; right: 0; bottom: 0;
+	min-width: 100%; min-height: 100%;
+	width: auto; height: auto;
+	background-size: cover;
+	display: none;
+}
+.header {
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	font-weight: bold;
+}
+.sectionContent {
+	font-family: 'Hind', sans-serif;
+	font-size: 12pt;
+}
+.introContain img {
+	width: 125px;
+	height: 150px;
+	float: left;
+}
+.smallerFont {
+	font-size: 13pt;
+}
+.bodyContent {
+	padding: 10px 30px;
+  text-align: justify;
+  width: 85%;
+  margin: auto;
+  margin-bottom: 30px; 
+}
+.plainLink {
+	color: white;
+}
+.bioList li {
+	list-style-type: none;
+	font-size: 11pt;
+}
+.purpleButton {
+	background-color: #5F4E7B;
+	outline: solid 1px black;
+	color: white;
+	display: block;
+	margin: auto;
+}
+.purpleButton a {
+	color: white;
+}
+.desktopButton {
+	display: none;
+}
+.twitterButton {
+	width: 50%;
+  margin: auto;
+  margin-top: 5ex;
+  margin-bottom: 15px;
+  padding: 5px;
+}
+#tweetButtonText {
+	display: inline;
+  vertical-align: super;
+}
+#portfolio, #experiments, #contact {
+	padding: 10px 0;
+}
+.portfolioPiece {
+	background-color: #d8ceea;
+	padding: 20px;
+}
+.summaryCard img {
+	max-width: 50%;
+	margin: auto;
+	display: block;
+}
+.portfolioDetails p {
+	font-family: 'Crimson Text', serif;
+}
+.cardContent {
+	padding: 0 30px;
+	text-align: justify;
+}
+.techCard ul{
+	text-align: center;
+	padding: 0;
+}
+.techCard ul li{
+	list-style-type: none;
+}
+#label {
+	font-size: 16pt;
+  vertical-align: middle;
+  padding-left: 1ex;
+  font-family: 'Cabin', sans-serif;
+}
+#cards button, #tiyBots button {
+  width: 75%;
+  margin-bottom: 2ex;
+  height: 3em;
+}
+#contactList {
+	padding: 0;
+  margin: auto;
+}
+#contactList li {
+  list-style-type: none;
+  display: inline-block;
+  width: 100%;
+  margin: auto;
+  margin-top: 2ex;
+  margin-bottom: 2ex;
+}
+#contactList li a{
+	color: black;
+  display: block;
+  width: 40%;
+  margin: auto;
+  text-align: center;
+}
+.contactButton {
+  color: black;
+  font-size: 16pt;
+}
+.projectInfo div p {
+	font-family: 'Hind', sans-serif;
+}
+p.projectSummary {
+	padding: 15px;
+}
+.projectImageMobile {
+	width: 25%;
+	display: block;
+	margin: auto;
+	margin-bottom: 3ex;
+}
+.sticky {
+	width: 35%;
+}
+
+/*STICKY NAVBAR*/
+
+a button.active {
+	background-color: red;
+	text-decoration: underline; 
+}
+
+/*MEDIA QUERY*/
+
+@media (min-width: 767px){
+	.jumbotron {
+			height: 100vh;
+	}
+	.techStack {
+		padding: 0 30px;
+	}
+	.fixed {
+		  position: fixed;
+		  top: 0;
+		  width: 100%;
+		  left: 0;
+		  z-index: 1000;
+		  background-image: url('../assets/images/vectorstock_4982.jpg');
+		  background-size: cover;
+		  text-align: right;
+	}
+	.fixed img {
+		display: block;
+		float: left;
+		width: 100px;
+		height: 100%;
+	}
+	.fixed a button {
+		width: 11%!important;
+	}
+	.fixed a button h3 {
+		display: none!important;
+	}
+	.projectInfo {
+		display: inline-block; 
+	}
+	p.projectSummary {
+		display: none;
+	}
+	#portfolio {
+		width: 100%;
+	  height: 85vh;
+	}
+	#connectButton {
+		background-color: #55acee;
+	}
+	#tweetButtonText {
+		display: inline;
+	  vertical-align: baseline;
+	  margin-left: 2ex;
+	}
+	video#bgvid {
+		display: block;
+	}
+	.introContain, .bioList, .plainLink {
+		position: relative;
+	}
+	.desktopButton {
+		display: inline;
+	}
+	.bioList {
+		padding: 0;
+	}
+	.introContain img {
+		float: none;
+	}
+	#aboutMePic {
+		display: block;
+		width: 50%;
+		margin: auto;
+		margin-bottom: 2ex; 
+	}
+	.bodyContent h3 {
+		font-size: 30pt;
+  	text-decoration: underline;
+  	margin-bottom: 1ex;
+	}
+	.bodyContent {
+		width: 93%;
+		border: black solid 2px;
+	}
+	.section > div {
+		display: inline-block!important;
+	}
+	.projectInfo div {
+		display: inline-block;
+		vertical-align: middle;
+	}
+	.summaryCard {
+		width: 44%;
+	}
+	#selectedProjectImg {
+		width: 51%;
+  	margin: auto;
+	}
+	#selectedProjectImg img {
+		max-width: 400px;
+		max-height: 375px;
+  	margin: auto;
+  	display: inline-block;
+  	float: right;
+	}
+	.imageToggleContain {
+		float: right;
+		padding-right: 16ex;
+  	padding-top: 3ex;
+	}
+	.imageToggle {
+		display: inline;
+  	padding: 10px;
+	}
+	.sectionContent {
+		display: block;
+	}
+	.twitterButton {
+		width: 40%;
+		height: 60px;
+	  margin: auto;
+	  display: inline;
+	  margin-top: 5ex;
+	  margin-bottom: 15px;
+	  margin-left: 3ex;
+	  margin-right: 3ex;
+	}
+	#contact{
+		text-align: center;
+	}
+	#contact h3 {
+		clear: both;
+	}
+	#aboutMe {
+		position: relative;
+		height: 90vh;
+	}
+	#siteTitle {
+		text-align: center;
+		position: relative;
+	}
+	.introContain img {
+		width: 150px;
+  	height: 180px;
+	}
+	.bioList li {
+		font-size: 14pt;
+		text-align: center;
+	}
+	.sticky {
+		width: inherit;
+		position: relative!important;
+	}
+	.projectImageMobile {
+		display: none;
+	}
+	#portfolioContent {
+		margin-top: 5ex;
+		width: 33%;
+	}
+	.projectContain > * {
+		display: inline-block;
+	}
+	.projectInfo{
+		width: 66%;
+  	height: 100%;
+  	float: right;
+	}
+	.portfolioPiece {
+		width: 100%%;
+	}
+	.portfolioPiece:hover, .portfolioPiece.active {
+		background-color: #796d91;
+		color: white;
+	}
+}
+@media (min-width: 991px){
+	.sectionContent {
+		font-size: 13pt;
+	}
+}
