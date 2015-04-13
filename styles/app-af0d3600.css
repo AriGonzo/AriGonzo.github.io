@@ -12,6 +12,7 @@ video#bgvid {
 	position: absolute; right: 0; bottom: 0;
 	min-width: 100%; min-height: 100%;
 	width: auto; height: auto;
+	background: url(bgfallback.jpg) no-repeat;
 	background-size: cover;
 	display: none;
 }
