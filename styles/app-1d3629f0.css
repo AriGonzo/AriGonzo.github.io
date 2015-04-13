@@ -73,6 +73,12 @@ video#bgvid {
 #portfolio, #experiments, #contact {
 	padding: 10px 0;
 }
+#blog {
+	text-align: left;
+}
+#blog div a h2{
+	font-size: 20pt!important;
+}
 .portfolioPiece {
 	background-color: #d8ceea;
 	padding: 20px;
@@ -229,7 +235,7 @@ a button.active {
   	margin-bottom: 1ex;
 	}
 	.bodyContent {
-		width: 93%;
+		width: 100%;
 		border: black solid 2px;
 	}
 	.section > div {
@@ -241,6 +247,7 @@ a button.active {
 	}
 	.summaryCard {
 		width: 44%;
+		height: 68%;
 	}
 	#selectedProjectImg {
 		width: 51%;
@@ -279,9 +286,15 @@ a button.active {
 	#contact{
 		text-align: center;
 	}
-	#contact h3 {
+	#blog {
+		text-align: center;
+	}
+	#blog h3 {
 		clear: both;
 	}
+	#blog div a h2{
+		font-size: 13pt;
+}
 	#aboutMe {
 		position: relative;
 		height: 90vh;
@@ -300,6 +313,13 @@ a button.active {
 	.bioList li {
 		font-size: 14pt;
 		text-align: center;
+	}
+	.projectLinkButton {
+		width: 50%;
+		padding: 10px;
+	}
+	#buttonLink1 {
+		margin-bottom: 3ex;
 	}
 	.sticky {
 		width: inherit;
